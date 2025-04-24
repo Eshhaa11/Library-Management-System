@@ -1,8 +1,8 @@
 class Book:
-    def __init__(self, title, author, isbn):
+    def __init__(self, title, author, id):
         self.__title = title
         self.__author = author
-        self.__isbn = isbn
+        self.__id = id
         self.__is_available = True
 
     def get_info(self):
@@ -24,8 +24,8 @@ class Book:
 
 
 class Textbook(Book):
-    def __init__(self, title, author, isbn, subject):
-        super().__init__(title, author, isbn)
+    def __init__(self, title, author, id, subject):
+        super().__init__(title, author, id)
         self.__subject = subject
 
     def get_subject(self):
