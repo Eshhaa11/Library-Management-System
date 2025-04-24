@@ -22,3 +22,8 @@ class Book:
         self.__is_available = True
         print(f"  Returned: {self.__title}")
 
+    class Textbook(Book):
+        def __init__(self, title, author, isbn, subject):
+            super().__init__(title, author, isbn)
+            self.__subject = subject
+
