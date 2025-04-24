@@ -15,3 +15,5 @@ class Book:
         if self.__is_available:
             self.__is_available = False
             print(f"📕 Borrowed: {self.__title}")
+        else:
+            print("Book is already borrowed.")
