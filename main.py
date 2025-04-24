@@ -32,6 +32,12 @@ class Book:
             return self.__subject
         
     class Member:
-        def __init__(self, author, member_id)
+        def __init__(self, name, member_id):
+            self._name = name
+            self._member_id = member_id
+            self._borrowed_books = []
+
+        def  get_name(self):
+
             
 
