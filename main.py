@@ -60,8 +60,8 @@ class Book:
             super().__init__(name, staff_id)
 
         def add_book(self,library, book):
-            
-
+            library.books.append(book)
+            print(f" '{book.get.info()}'added to Library.")
     
 
 
