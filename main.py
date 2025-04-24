@@ -45,6 +45,11 @@ class Book:
             super().__init__(name, member_id)
             self._borrow_limit = 3
 
+    class Faculty(Member):
+        def __init__(self, name, member_id):
+            super().__init__(name, member_id)
+            
+
 
             
 
