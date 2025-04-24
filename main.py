@@ -27,3 +27,11 @@ class Book:
             super().__init__(title, author, isbn)
             self.__subject = subject
 
+    
+        def get_subject(self):
+            return self.__subject
+        
+    class Member:
+        def __init__(self, author, member_id)
+            
+
