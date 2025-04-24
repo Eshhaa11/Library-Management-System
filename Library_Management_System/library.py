@@ -4,3 +4,6 @@ class Library:
 
     def add_book(self, book):
         self.books.append(book)
+        print(f "Book added: {book.get_info()}")
+
+        
