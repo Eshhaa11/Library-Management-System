@@ -3,3 +3,4 @@ class Book:
         self.__title = title
         self.__author = author
         self.__isbn = isbn
+        self.__is_available = True
