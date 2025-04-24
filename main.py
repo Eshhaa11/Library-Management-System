@@ -10,3 +10,8 @@ class Book:
     
     def is_available(self):
         return self.__is_available
+    
+    def borrow(self):
+        if self.__is_available:
+            self.__is_available = False
+            print(f"📕 Borrowed: {self.__title}")
