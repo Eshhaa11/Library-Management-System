@@ -39,6 +39,10 @@ class Book:
 
         def  get_name(self):
             return self._name
+        
+    class Student(Member):
+        def __init__(self, name, member_id):
+            
 
             
 
