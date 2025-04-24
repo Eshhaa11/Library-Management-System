@@ -4,9 +4,9 @@ class Library:
 
     def add_book(self, book):
         self.books.append(book)
-        print(f "Book added: {book.get_info()}")
+        print(f"Book added: {book.get_info()}")
 
-    def remove_book(self, isbn):
+    def remove_book(self, id):
         for book in self.books:
-            if book._Book__isbn == isbn:
-                     
+            if book._Book__isbn == id:
+    
