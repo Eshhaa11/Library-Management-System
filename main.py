@@ -50,7 +50,7 @@ class Book:
             super().__init__(name, member_id)
             self._borrow_limit = 5
 
-    
+    class Staff:
 
 
 
