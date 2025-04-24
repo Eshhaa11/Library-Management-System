@@ -51,6 +51,8 @@ class Book:
             self._borrow_limit = 5
 
     class Staff:
+        def __init__ (self, name, staff_id):
+            
 
 
 
