@@ -8,5 +8,8 @@ class Library:
 
     def remove_book(self, id):
         for book in self.books:
-            if book._Book__isbn == id:
-    
+            if book._Book__id == id:
+                self.books.remove(book)
+                print(f"🗑️ Book removed with ID: {id}")
+                return
+        print("❌ Book not found")
