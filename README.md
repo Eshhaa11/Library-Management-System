@@ -48,8 +48,8 @@ LibraryManagementSystem/
 
 1. 📅 Download or clone this repository:
    ```bash
-   git clone https://github.com/your-username/library-management-system.git
-   cd library-management-system
+   git clone https://github.com/Eshhaa11/OOP-Project
+   cd OOP-project
    ```
 
 2. ▶️ Run the program:
