@@ -6,4 +6,7 @@ class Library:
         self.books.append(book)
         print(f "Book added: {book.get_info()}")
 
-        
+    def remove_book(self, isbn):
+        for book in self.books:
+            if book._Book__isbn == isbn:
+                     
