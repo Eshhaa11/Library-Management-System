@@ -38,6 +38,7 @@ class Book:
             self._borrowed_books = []
 
         def  get_name(self):
+            return self._name
 
             
 
