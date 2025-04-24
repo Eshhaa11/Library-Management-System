@@ -27,6 +27,8 @@ class Library:
             print("Book not found.")
 
     def display_books(self):
-            print("Library Cataclog: ")
-            
+        print("📚 Library Catalog:")
+        for book in self.books:
+            status = "Available" if book.is_available() else "Borrowed"
+            print(f"{book.get_info()} - {status}")
               
