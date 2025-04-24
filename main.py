@@ -17,3 +17,8 @@ class Book:
             print(f"📕 Borrowed: {self.__title}")
         else:
             print("Book is already borrowed.")
+
+    def return_book(self):
+        self.__is_available = True
+        print(f"  Returned: {self.__title}")
+
