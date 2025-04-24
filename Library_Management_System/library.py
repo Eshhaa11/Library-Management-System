@@ -13,3 +13,5 @@ class Library:
                 print(f"🗑️ Book removed with ID: {id}")
                 return
         print("❌ Book not found")
+
+    def update_book(self, id, new_title=None, new_author=None)
