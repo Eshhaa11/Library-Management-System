@@ -55,6 +55,13 @@ class Book:
            self._name = name
            self._staff_id = staff_id
 
+    class  Librarian(Staff):
+        def __init__(self,  name, staff_id):
+            super().__init__(name, staff_id)
+
+        def add_book(self,library, book):
+            
+
     
 
 
